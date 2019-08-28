@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imgItem2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nhahang2"
+        android:layout_width="120dp"
+        android:layout_height="100dp" />
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="10dp"
+         android:textColor="@android:color/black"
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:layout_toRightOf="@+id/imgItem2"
+         android:id="@+id/tvItem2"
+         android:text="Nguyen Van Doan"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imgsaoden1a"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/tvItem2"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <ImageView
+            android:id="@+id/imgsaoden2a"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/tvItem2"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="45dp"
+            android:id="@+id/imgsaoden3a"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/tvItem2"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="65dp"
+            android:id="@+id/imgsaoden4a"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/tvItem2"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="85dp"
+            android:id="@+id/imgsaoden5a"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/tvItem2"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvItemDiaChi2"
+            android:textSize="14sp"
+            android:text="Nguyen Van Doan"
+            android:layout_toRightOf="@id/imgItem2"
+            android:layout_below="@+id/imgsaoden1a"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tvMonan"
+        android:textSize="14sp"
+        android:text="Nguyen Van Doan"
+        android:layout_toRightOf="@id/imgItem2"
+        android:layout_below="@+id/tvItemDiaChi2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>

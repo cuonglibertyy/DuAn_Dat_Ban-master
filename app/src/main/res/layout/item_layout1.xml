@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgItem1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nhahang2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+     <TextView
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:textColor="@android:color/black"
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:layout_below="@+id/imgItem1"
+         android:id="@+id/tvItem1"
+         android:text="Nguyen Van Doan"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imgsaoden1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvItem1"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <ImageView
+            android:id="@+id/imgsaoden2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/tvItem1"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:id="@+id/imgsaoden3"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvItem1"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:id="@+id/imgsaoden4"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvItem1"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginLeft="90dp"
+            android:id="@+id/imgsaoden5"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvItem1"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvItemDiaChi"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:text="Nguyen Van Doan"
+            android:layout_below="@+id/imgsaoden1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

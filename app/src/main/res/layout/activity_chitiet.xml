@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChitietActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarChitiet"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <LinearLayout
+                android:gravity="center"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvTiltle"
+                    android:textColor="@android:color/white"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    android:textSize="20sp"
+                    android:text="Nguyễn Văn Đoàn"
+                    android:layout_weight="9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:id="@+id/imgTym"
+                    android:src="@drawable/ic_tim_den"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgChitiet"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nhahang2"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+             <TextView
+                 android:layout_marginRight="110dp"
+                 android:id="@+id/tvNameChitiet"
+                 android:textColor="@android:color/black"
+                 android:textStyle="bold"
+                 android:textSize="20sp"
+                 android:layout_marginTop="@dimen/padding_10"
+                 android:layout_marginLeft="@dimen/padding_10"
+                 android:layout_below="@+id/imgChitiet"
+                 android:text="Chuỗi Ân Nam Quán"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90dp"
+            android:id="@+id/imgsaochi1"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/imgChitiet"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:id="@+id/imgsaochi2"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/imgChitiet"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:id="@+id/imgsaochi3"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/imgChitiet"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:id="@+id/imgsaochi4"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/imgChitiet"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imgsaochi5"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/imgChitiet"
+            android:src="@drawable/ic_sao_den"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvDiachitiet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginRight="@dimen/padding_10"
+            android:textSize="16sp"
+            android:text="Địa chỉ"
+            android:layout_below="@+id/tvNameChitiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvMonanchiet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginRight="@dimen/padding_10"
+            android:textSize="16sp"
+            android:text="Món ăn"
+            android:layout_below="@+id/tvDiachitiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvGiatien"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginRight="@dimen/padding_10"
+            android:textSize="16sp"
+            android:text="300K / 1 người"
+            android:layout_below="@+id/tvMonanchiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/tvbantrong"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginRight="@dimen/padding_10"
+            android:layout_below="@+id/tvGiatien"
+            android:text="Nhà hàng hiện tại còn 2 bàn trống"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvGioithieu"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginRight="@dimen/padding_10"
+            android:textSize="16sp"
+            android:text="Giới thiệu"
+            android:layout_below="@+id/tvbantrong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        </ScrollView>
+        <Button
+            android:id="@+id/btnDatBan"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_login"
+            android:text="Xem bàn"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</LinearLayout>
